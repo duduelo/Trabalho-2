@@ -138,10 +138,10 @@ INSERT INTO Integrantes_bandas VALUES (47, 7);
 INSERT INTO Integrantes_bandas VALUES (48, 7);
 INSERT INTO Integrantes_bandas VALUES (49, 7);
 
-INSERT INTO Bandas_genero VALUES (1, 1);
-INSERT INTO Bandas_genero VALUES (2, 2);
-INSERT INTO Bandas_genero VALUES (3, 3);
-INSERT INTO Bandas_genero VALUES (4, 4);
-INSERT INTO Bandas_genero VALUES (5, 5);
-INSERT INTO Bandas_genero VALUES (6, 6);
-INSERT INTO Bandas_genero VALUES (7, 7);
+INSERT INTO Bandas_album VALUES (1, 1);
+INSERT INTO Bandas_album VALUES (2, 2);
+INSERT INTO Bandas_album VALUES (3, 3);
+INSERT INTO Bandas_album VALUES (4, 4);
+INSERT INTO Bandas_album VALUES (5, 5);
+INSERT INTO Bandas_album VALUES (6, 6);
+INSERT INTO Bandas_album VALUES (7, 7);
