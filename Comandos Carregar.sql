@@ -1,3 +1,4 @@
+USE lojaVinis
 INSERT INTO Genero VALUES (1, 'Jazz');
 INSERT INTO Genero VALUES (2, 'Pop');
 INSERT INTO Genero VALUES (3, 'Rock');
@@ -145,3 +146,53 @@ INSERT INTO Bandas_album VALUES (4, 4);
 INSERT INTO Bandas_album VALUES (5, 5);
 INSERT INTO Bandas_album VALUES (6, 6);
 INSERT INTO Bandas_album VALUES (7, 7);
+
+INSERT INTO Album VALUES (8, 7, 49, 2011, 'Good & Evil');
+INSERT INTO Vinil VALUES (8, 8, 1);
+INSERT INTO Bandas VALUES (8, 'Tally Hall', 2002, true);
+INSERT INTO Integrantes VALUES (50, 'Rob Cantor');
+INSERT INTO Integrantes VALUES (51, 'Zubin Sedghi');
+INSERT INTO Integrantes VALUES (52, 'Andrew Horowitz');
+INSERT INTO Integrantes VALUES (53, 'Ross Federman');
+INSERT INTO Integrantes VALUES (54, 'Steve Gallagher');
+INSERT INTO Integrantes VALUES (55, 'Joe Hawley');
+INSERT INTO Bandas_genero VALUES (7, 8);
+INSERT INTO Integrantes_bandas VALUES (50, 8);
+INSERT INTO Integrantes_bandas VALUES (51, 8);
+INSERT INTO Integrantes_bandas VALUES (52, 8);
+INSERT INTO Integrantes_bandas VALUES (53, 8);
+INSERT INTO Integrantes_bandas VALUES (54, 8);
+INSERT INTO Integrantes_bandas VALUES (55, 8);
+INSERT INTO Bandas_album VALUES (8, 8);
+
+INSERT INTO Album VALUES (9, 5, 55, 2013, 'The Raven That Refused to Sing (And Other Stories)');
+INSERT INTO Vinil VALUES (9, 9, 2);
+INSERT INTO Bandas_album VALUES (5, 9);
+
+INSERT INTO Album VALUES (10, 5, 43, 2003, 'Damnation');
+INSERT INTO Vinil VALUES (10, 10, 1);
+INSERT INTO Bandas_album VALUES (4, 10);
+
+INSERT INTO Album VALUES (11, 4, 68, 2019, 'In Cauda Venenum');
+INSERT INTO Vinil VALUES (11, 11, 2);
+INSERT INTO Bandas_album VALUES (4, 11);
+
+INSERT INTO Album VALUES (12, 7, 49, 2005, 'Marvins Marvelous Mechanical Museum');
+INSERT INTO Vinil VALUES (12, 12, 1);
+INSERT INTO Bandas_album VALUES (8, 12);
+
+INSERT INTO Album VALUES (13, 3, 39, 1974, 'Sheer Heart Attack');
+INSERT INTO Vinil VALUES (13, 13, 1);
+INSERT INTO Bandas_album VALUES (3, 13);
+
+INSERT INTO Album VALUES (14, 6, 35, 2019, 'Chronologic');
+INSERT INTO Vinil VALUES (14, 14, 1);
+INSERT INTO Bandas_album VALUES (6, 14);
+
+INSERT INTO Album VALUES (15, 1, 41, 1960, 'Sketches of Spain');
+INSERT INTO Vinil VALUES (15, 15, 1);
+INSERT INTO Bandas_album VALUES (1, 15);
+
+INSERT INTO Album VALUES (16, 7, 46, 2010, 'The Illusion of Safety');
+INSERT INTO Vinil VALUES (16, 16, 1);
+INSERT INTO Bandas_album VALUES (7, 16);
